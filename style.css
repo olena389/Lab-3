@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f2f3;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Загальні стилі для заголовків і футера */
+.header, .footer, .footer-float {
+    background-color: rgb(112, 162, 223); 
+    color: black;
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+}
+
+/* Макет з float */
+.main-float {
+    overflow: hidden;
+}
+
+.text-left {
+    float: left;
+    width: 70%;
+    height: 400px;
+    background-color: rgb(188, 230, 139); 
+    text-align: center;
+    line-height: 400px;
+    font-size: 24px;
+}
+
+.image-right {
+    float: left;
+    width: 30%;
+    height: 400px;
+    background-color: rgb(147, 176, 113); 
+    text-align: center;
+    line-height: 400px;
+    font-size: 24px;
+}
+
+.footer-float {
+    background-color: rgb(65, 242, 194); 
+    color: black;
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f2f3;
+}
+
+h1 {
+    text-align: center;
+}
+
+/* Загальні стилі для заголовків і футера */
+.header {
+    background-color: rgb(112, 162, 223); 
+    color: black;
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+}
+
+.footer {
+    background-color: rgb(65, 242, 194); 
+    color: black;
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+}
+/* Верстка Flexbox */
+.main-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-left-flex {
+    flex: 7;
+    background-color: rgb(188, 230, 139); 
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+
+.image-right-flex {
+    flex: 3;
+    background-color: rgb(147, 176, 113); 
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+
+.footer-flex {
+    background-color: rgb(65, 242, 194); 
+    color: black;
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+}
